@@ -1,0 +1,70 @@
+/*STANDARD SETTING*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*UTILITIES*/
+
+.clearfix::after{
+    content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/*HEADER*/
+
+.container{
+    width: 100%;
+    height: 70px;
+}
+
+.main-logo{
+    float: left;
+}
+
+.main-logo img{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.as-left{
+    float: left;
+}
+
+.as-right{
+    float: right;
+}
+
+.navbar-sx{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.spaces li{
+    display: inline;
+    margin-right: 45px;
+}
+
+.navbar-dx{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+/*JUMBO*/
+
+.banner{
+    width: 100%;
+    height: 745px;
+    background-color: #b4d0e7;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
