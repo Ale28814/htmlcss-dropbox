@@ -36,10 +36,6 @@
     margin-bottom: 10px;
 }
 
-.content{
-    width: 100%;
-}
-
 .bord{
     border: 1px solid black;
 }
@@ -131,13 +127,15 @@
 
 /*TITLE*/
 
+
 .subscription{
     width: 65%;
     position: relative;
-    margin-top: 220px;
+    margin-top: 200px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: inline-block;
 }
 
 .sub-title{
@@ -160,10 +158,26 @@
 .card{
     width: 65%;
     position: relative;
-    margin-top: 400px;
+    margin-top: 600px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 22px;
+    display: inline-block;
+}
+
+.card ul{
+    list-style: none;
+}
+
+.card ul li{
+    margin-bottom: 12px;
+}
+
+.explain{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .plan-1, .plan-2{
@@ -188,14 +202,19 @@
 
 /*BOX DOWN*/
 
-.box-down{
+.down-box{
     position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.box-down{
+    position: absolute;
     width: 65%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 225px;
-    margin-top: 80px;
     border: 1px solid black;
 }
 
@@ -216,17 +235,20 @@
     margin: 30px 30px;
 }
 
+/*PARTNER*/
+
 .partner{
-    margin-top: 200px;
-    height: 100px;
+    margin-top: 300px;
+    position: relative;
 }
 
 .boxed{
-    position: relative;
+    position: absolute;
     width: 65%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: inline-block;
 }
 
 .partner-finder{
@@ -256,4 +278,4 @@
     margin-bottom: 10px;
 }
 
-
+/*BUSINESS*/
