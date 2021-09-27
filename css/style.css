@@ -45,6 +45,7 @@
 .container{
     width: 100%;
     height: 70px;
+    font-size: 32px;
 }
 
 .main-logo{
@@ -81,6 +82,7 @@
     background-color: #b4d0e7;
     margin: 0px auto;
     position: relative;
+    font-size: 32px;
 }
 
 .box{
@@ -136,6 +138,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
+    font-size: 32px;
 }
 
 .sub-title{
@@ -162,7 +165,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 22px;
+    font-size: 28px;
     display: inline-block;
 }
 
@@ -279,3 +282,169 @@
 }
 
 /*BUSINESS*/
+
+.contenitore-a{
+    width: 65%;
+    position: relative;
+    margin-top: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    display: inline-block;
+}
+
+.contenitore-a div{
+    height: 400px;
+    float: left;
+    width: 32%;
+}
+
+.d img{
+    width: 100%;
+    height: 90%;
+}
+
+.contenitore-b{
+    width: 65%;
+    position: relative;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    display: inline-block;
+}
+
+.contenitore-b div{
+    height: 400px;
+    float: left;
+    width: 32%;
+}
+
+.d img{
+    width: 100%;
+    height: 90%;
+}
+
+.other-title{
+    width: 65%;
+    position: relative;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    display: inline-block;
+}
+
+/*sponsors*/
+
+.boxer{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    margin-top: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+ 
+}
+
+.side-c{
+    float: left;
+    border: 1px solid black;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #f5f5f5;
+}
+
+.side-c img{
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.side-c p{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.side-c h4{
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+.side-dx{
+    float: right;
+    position: absolute;
+    width: 25%;
+    margin-right: 0px;
+}
+
+
+
+.side-sx{
+    position: absolute;
+    float: left;
+    width: 25%;
+}
+
+.side-sx img{
+    position: absolute;
+    width: 25%;
+}
+
+aside .pic1{
+    float: left;
+    background-color: brown;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.gage{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#b4d0e7 ;
+}
+
+.try{
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: burlywood;
+    font-size: 32px;
+}
+
+.plant{
+    float: left;
+    width: 50%;
+}
+
+.act{
+    width: 50%;
+    float: right;
+}
+
+.act button{
+    background-color: #fff;
+    color: black;
+    margin-top: 35px;
+    font-size: 22px;
+}
+
