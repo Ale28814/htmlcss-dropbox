@@ -11,10 +11,37 @@
 
 .clearfix::after{
     content: " ";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.spaces li{
+    display: inline;
+    margin-right: 45px;
+}
+
+.btn-sml{
+    background-color: #0061ff;
+    color: white;
+    padding: 2px;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+    padding: 8px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.content{
+    width: 100%;
+}
+
+.bord{
+    border: 1px solid black;
 }
 
 /*HEADER*/
@@ -43,11 +70,6 @@
 .navbar-sx{
     margin-left: 25px;
     margin-top: 25px;
-}
-
-.spaces li{
-    display: inline;
-    margin-right: 45px;
 }
 
 .navbar-dx{
@@ -104,3 +126,134 @@
     height: 100%;
     object-fit: cover;
 }
+
+/*MAIN*/
+
+/*TITLE*/
+
+.subscription{
+    width: 65%;
+    position: relative;
+    margin-top: 220px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-title{
+    position: absolute;
+    width: 100%;
+}
+
+.sub-title h1{
+    font-size: 40px;
+    font-weight: 14px;
+    margin-bottom: 60px;
+}
+
+.choise{
+    margin-right: 30px;
+}
+
+/*SUB CARD*/
+
+.card{
+    width: 65%;
+    position: relative;
+    margin-top: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plan-1, .plan-2{
+    float: left;
+    width: 32%;
+}
+
+.plan-2{
+    margin-left: 2%;
+}
+
+.plan-3{
+    float: right;
+    width: 32%;
+}
+
+.card h3{
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+}
+
+/*BOX DOWN*/
+
+.box-down{
+    position: relative;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 225px;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+
+.box-down h3{
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+}
+
+.enterprice{
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.team-button{
+    float: right;
+    margin: 30px 30px;
+}
+
+.partner{
+    margin-top: 200px;
+    height: 100px;
+}
+
+.boxed{
+    position: relative;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.partner-finder{
+    float: right;
+    width: 44%;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.img-left{
+    float: left;
+    position: absolute;
+    width: 54%;
+}
+
+.img-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.partner button{
+    background-color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
